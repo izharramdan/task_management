@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "jumpi",
+      "role": "Project Manager",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "username": "jampe",
+      "role": "Staff",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "username": "jompo",
+      "role": "Staff",
+      "password": "123456"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "0a3d",
+      "title": "Learn JavaScript",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "1",
+      "subtasks": [
+        {
+          "id": "1",
+          "title": "Subtask 1"
+        },
+        {
+          "id": "2",
+          "title": "Subtask 2"
+        }
+      ]
+    },
+    {
+      "id": "1f2e",
+      "title": "Learn Git",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "3",
+      "subtasks": []
+    },
+    {
+      "id": "4g5h",
+      "title": "Learn Python",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "3",
+      "subtasks": []
+    },
+    {
+      "id": "5i6j",
+      "title": "Learn CSS",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "4",
+      "subtasks": []
+    },
+    {
+      "id": "7k8l",
+      "title": "Learn Golang",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "2",
+      "subtasks": []
+    },
+    {
+      "id": "7b37",
+      "title": "Learn HTML",
+      "description": "Lorem ipsum",
+      "assignedTo": "2",
+      "deadline": "2024-03-23",
+      "statusId": "2",
+      "subtasks": []
+    },
+    {
+      "id": "2430",
+      "title": "cek",
+      "description": "cek",
+      "deadline": "2024-03-20",
+      "assignedTo": "3",
+      "statusId": "3"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "1",
+      "name": "To-do"
+    },
+    {
+      "id": "2",
+      "name": "In Progress"
+    },
+    {
+      "id": "3",
+      "name": "Review"
+    },
+    {
+      "id": "4",
+      "name": "Reject"
+    },
+    {
+      "id": "5",
+      "name": "Done"
+    }
+  ]
+}
